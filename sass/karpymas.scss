@@ -1,0 +1,347 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+$spalva:white;
+$didziosiosraides:uppercase;
+$tekstascentre:center;
+$montserat: 'Montserrat', sans-serif;
+$kaushan: 'Kaushan Script', cursive;
+$roboto:'Roboto', sans-serif;
+
+body{
+    
+    
+
+}
+.section1{
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url('../images/erelis.jpg');
+
+    nav{
+        width:100%;
+        margin: 0 auto;
+        padding-top: 20px;
+        display: inline-block;
+        font-size: 0;
+        
+        
+        .mogo{
+            
+            box-sizing: border-box;
+            font-weight: bold;
+            display: inline-block;
+            text-align: center;
+            margin: 0 auto;
+            width:50%;
+            color: #fff;
+            font-family: $montserat;
+            font-size: 30px;      
+            }
+            
+        ul{
+            display: inline-block;
+            justify-content: space-around;
+            width: 50%;
+            margin: 0 auto;
+            padding: 0;
+            
+            .imgs{
+                align-items: center;   
+            }
+        
+            li{
+               margin-right: 29px;
+                color: $spalva;   
+                display: inline-block;
+                text-align: center;
+                text-transform: uppercase;
+                font-family: $montserat;
+                font-size: 14px;
+                
+            
+            }
+            a{
+                border-bottom: 2px solid transparent;
+                text-decoration: none ;
+                padding-bottom: 8px;
+                display: inline-block;              
+                font-size: 17px;       
+                color: $spalva;  
+            }    a:hover{
+                
+                border-bottom: 2px solid  #ffec09f2;
+                color: yellow;
+
+            }
+        }       
+        
+    }
+    .wtm{
+        height: 129px;
+        margin: 0 auto;
+        text-align: $tekstascentre;
+        font-family: $montserat;
+        color: $spalva;
+        font-size: 150px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .creativetemplate{
+        margin: 160px auto 0px;
+        text-align: $tekstascentre;
+        text-transform: capitalize;
+        font-family: $kaushan;
+        font-size: 72px;
+        color: $spalva;
+        display: block;
+    }
+    .juosta{
+        color: rgba(255, 255, 255, 0);
+        margin: 67px auto 26px;
+        width: 65px;
+        border-top: 3px solid white;
+
+        
+    }
+   
+    .learnmore{
+        padding: 10px 29px;
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0);
+        font-family: $montserat;
+        display: block;
+        margin:10px auto 138px;
+        color: $spalva;
+        text-transform:$didziosiosraides;
+        opacity: 0.9;
+        border: 3px solid white;
+            
+        a{
+            text-decoration: none;
+            color: $spalva;
+        }
+            a:hover{
+                color:red;
+                transition: all 500ms ease;
+            }
+        
+    }
+      
+   .navpirmo{
+        padding-top: 0;
+       font-size: 0;
+       width: 100%;
+       margin: 0 auto;
+       display: inline-block;
+       
+       ul{
+        display: block;
+        width: max-content;
+        
+           li{
+        
+                text-align: left;
+                                                
+                a{  
+                    padding-top: 15px;
+                    font-size: 18px;
+                    display: inline-block;
+                    margin-bottom: 10px;
+                    width: 270px;
+                    border-top: 1px solid white;
+                    font-size: 18px;
+                }
+
+                    b{
+                        padding-right: 5px;
+                        font-size: 24px;
+                        font-weight: bold;
+                    }
+                    a:hover{
+                        border-bottom: none;
+                        transition: all 500ms ease;
+                        border-top: 1px solid red;
+                        color: $spalva;
+
+                    }
+            }      
+             
+
+        }      
+    
+    }
+}
+
+
+.section2 {
+    
+    display: block;
+    font-size: 0;
+    margin: 0 auto;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+    
+    
+
+   .whatwedo{
+       padding-bottom: 10px;
+        font-size: 24px;
+        font-family: $kaushan;
+    
+   }
+   .storyab{
+       padding-bottom: 20px;
+       font-size: 30px;
+       font-weight: bold;
+       font-family: $montserat;
+       text-transform: $didziosiosraides;
+   }
+   .aaa{
+       
+    margin: 0 auto;
+    padding-top: 21px;
+    width: 61px;
+    font-size: 10px;
+    border-top: 3px solid red;
+   }
+   .lorem{
+       font-size: 14px;
+       font-family: $roboto;
+       color: rgba(0, 0, 0, 0.548);
+   }
+   .imga{
+        margin-bottom: 90px;
+        margin-top: 80px;
+   }
+   .imgaboutus{
+       display: inline-block;
+       margin-right: 2%;
+       max-width: 380px ;
+       max-height: 249px ;
+
+   }
+    .infos{
+        
+        font-size: 0;
+        margin: 0 auto;
+        width: 100%;
+        background-color: #95e1d3;
+        
+        
+        .info{
+            width: 14%;
+            text-transform: $didziosiosraides;
+            color: $spalva;
+            font-size: 14px;
+            font-family: $montserat;
+            display: inline-block;
+            border-right: 1px solid $spalva;
+            border-left: 1px solid $spalva;
+            .skaicius{
+                padding-top: 50px;
+                padding-bottom: 15px;
+                font-weight: bold;
+                font-size: 72px;
+                display: block;
+            }
+            .zodis{
+                
+                display: inline-block;
+                margin: 0 auto;
+                padding-bottom: 40%;
+                
+            }
+    }
+
+   }  
+} 
+
+.section2{
+   
+.iconostev{
+    display: block;
+    }
+    .icon{
+        display: inline-block;
+        // margin-left:20%;
+        // margin-right: 20px
+     
+    }   
+    
+    .kazkas{
+        display:block;
+        width: 33%;
+    }    
+
+    .iconname{
+        box-sizing: border-box;
+        // margin-right: 20px;
+        display: inline-block;
+        font-size: 14px;
+        font-family: $montserat;
+        text-transform: $didziosiosraides;
+        }
+        .icontext{
+            display: inline-block;
+            font-size: 15px;
+            font-family: $roboto;
+        }
+     .greyline{
+         width: 50px;
+         font-size: 2px;
+         color: grey;
+     }   
+
+
+    
+}
